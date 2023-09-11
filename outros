@@ -1,0 +1,16 @@
+/*reader, err := pdf.Open("bilheteriadigital.com_voucher_PBT899940_0b993b7f491512a58d9a634591955a94bedb4230.pdf")
+
+	if err != nil {
+		log.Panic(err)
+	}
+
+	textReader, err := reader.GetPlainText()
+
+	if err != nil {
+		log.Panic(err)
+	}
+
+	var buf bytes.Buffer
+	buf.ReadFrom(textReader)
+
+	log.Println(buf.String())*/
